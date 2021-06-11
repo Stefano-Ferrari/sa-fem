@@ -7642,6 +7642,10 @@ textarea.form-control-lg {
   border-radius: 0.3rem !important;
 }
 
+.rounded-4{
+  border-radius: 0.8rem !important;
+}
+
 .rounded-circle {
   border-radius: 50% !important;
 }
@@ -11301,6 +11305,21 @@ footer a:hover, footer a:active, footer a:focus {
   text-decoration: underline;
 }
 
+#about-safem{
+  background: url(../assets/img/base_bianco30.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 18vh;
+  padding-bottom: 5vh;
+}
+
+#icona:hover{
+  transform: rotate(10deg);
+  transition: 0.1 ease-in-out;
+}
+
 .masthead {
   background-image: url(../assets/img/Home/pexels-jaxson-bryden-2040627.jpg);
   background-repeat: no-repeat;
@@ -11391,10 +11410,35 @@ footer a:hover, footer a:active, footer a:focus {
   }
 }
 
-#map1 {
+#map1, #map2, #map3, #map4, #map5, #map6 {
   width: 100%;
   height: 300px;
   margin:0;
   padding:0;
   border-radius: 8px;
+}
+
+.team-photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team-photo-frame{
+  height: 18vw;
+  width: 18vw;
+}
+
+@media (min-width: 992px) {
+  .team-photo{
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 992px) {
+  .team-photo-frame{
+    height: 12vw;
+    width: 12vw;
+  }
 }

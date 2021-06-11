@@ -6,15 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>Sa fèm - L'app per il microturismo</title>
+  <title>SaFèm - Chi siamo</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <!-- Bootstrap icons-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-  <!-- Google fonts-->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -23,7 +18,10 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
     <div class="container px-5">
-      <a class="navbar-brand fw-bold" href="/index.html">SaFèm</a>
+      <div class="d-flex justify-content-center align-content-center m-auto">
+        <a id="icona" href="/index.html"><img src="assets/logo.png" width="30px" height="30px" style="margin-top:12px;"></a>
+        <a class="navbar-brand fw-bold" href="/index.html">SaFèm</a>
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="bi-list"></i>
@@ -44,39 +42,63 @@
     </div>
   </nav>
   <!-- Mashead header-->
-  <header style="padding:15vh;">
-    <h1>SaFèm</h1>
-    <p>SaFèm deriva dall'espressione "sa fèm" (o "se fèm"), tipica del dialetto milanese. L'abbiamo scelta perché bla bla bla</p>
-
-    <div class="row gx-5 align-items-end text-center h-50">
-      <div class="d-flex flex-column text-centered">
-        <div class="flex-lg-row">
-          <button class="btn btn-outline-light rounded-pill px-3 mb-2 mb-lg-0" onclick="window.location.href='#preview'">
-            <span class="text-white fw-normal">Dai un'occhiata</span>
-          </button>
-        </div>
-        <span class="bi bi-chevron-down align-items-end text-white"></span>
-      </div>
-    </div>
-    </div>
-
-  </header>
-
-  <section style="padding: 15vh;">
-    <h2>Diamo valore alle piccole cose</h2>
-    <p>Nell'ultimo anno tutto il mondo si è fermato per far fronte ad una pandemia globale senze precedenti. In questo periodo il settore del turismo è stato uno di quelli che ha subito maggiori perdite.
-      Noi di SaFèm vogliamo far riscorpire agli italiani le bellezze del loro paese, che non si trovano solo nelle grandi città, ma spesso sono dietro l'angolo, a due passi da casa. Vogliamo far scoprire le possibilità del microturismo, come bla bla
-      bla bla
+  <div class="bg-primary">
+    <header id="about-safem" class="d-flex flex-column align-content-center justify-content-center">
+      <h1 class="text-center text-white" style="font-size:20vw;">SaFèm</h1>
+      <p class="fw-normal lead rounded-4" style="background-color: rgba(255, 255, 255, 0.9); margin-left: 28vw; margin-right:28vw; padding:2vw;">SaFèm, deriva dall'espressione tipica del dialetto milanese, traducibile in italiano come ‘Che facciamo?’.
+Con le loro storie e i loro modi di dire, i dialetti sono espressione delle tradizioni, della lentezza, dello stare insieme e della cultura locale. Quest’ultima costituisce il cuore del microturismo, a cui SaFèm attribuisce un grande valore.</p>
+    </header>
+  </div>
+  <section class="d-flex flex-column align-content-center justify-content-center">
+    <h2 class="text-center display-3 mb-4">Diamo valore <br>alle piccole cose</h2>
+    <p class="lead pt-3 bg-secondary rounded-4" style="margin-left: 28vw; margin-right:28vw; padding:2vw;">Nell’ultimo anno e mezzo, il mondo si è fermato per far fronte ad una pandemia senza precedenti ed il turismo ha subito una grande perdita.
+In realtà, non abbiamo smesso di viaggiare: abbiamo solo smesso di andare lontano. Abbiamo riscoperto la lentezza nelle botteghe di paese, la bellezza dei monti dietro casa, il piacere di un piatto tipico della nostra zona.
+<br>Noi di SaFèm vogliamo accompagnarvi alla scoperta di tutto ciò, mostrandovi come le piccole cose nascondano in realtà una grande bellezza.
     </p>
   </section>
 
-  <section style="padding: 15vh;">
-    <h2>Il nostro team</h2>
-    <p>qui ci siamo noi</p>
+  <section class="d-flex flex-column align-content-center justify-content-center">
+    <h2 class="text-center display-3 mb-4">Il nostro team</h2>
+    <div class="team-photo">
+      <div class="d-flex flex-row">
+        <div class="d-flex flex-column align-content-center justify-content-center text-center">
+          <div class="rounded-circle overflow-hidden m-3 team-photo-frame">
+            <img src="assets/img/stefano.jpg" class="team-photo-frame">
+          </div>
+          <p>Linda Agosto</p>
+        </div>
+        <div class="d-flex flex-column align-content-center justify-content-center text-center">
+          <div class="rounded-circle overflow-hidden m-3 team-photo-frame">
+            <img src="assets/img/stefano.jpg" class="team-photo-frame">
+          </div>
+          <p>Alice Bocchio</p>
+        </div>
+        <div class="d-flex flex-column align-content-center justify-content-center text-center">
+          <div class="rounded-circle overflow-hidden m-3 team-photo-frame">
+            <img src="assets/img/stefano.jpg" class="team-photo-frame">
+          </div>
+          <p>Stefano Ferrari</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="d-flex flex-column align-content-center justify-content-center text-center">
+          <div class="rounded-circle overflow-hidden m-3 team-photo-frame">
+            <img src="assets/img/stefano.jpg" class="team-photo-frame">
+          </div>
+          <p>Roberta Tibaldo</p>
+        </div>
+        <div class="d-flex flex-column align-content-center justify-content-center text-center">
+          <div class="rounded-circle overflow-hidden m-3 team-photo-frame">
+            <img src="assets/img/stefano.jpg" class="team-photo-frame">
+          </div>
+          <p>Federica Vatri</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- App badge section-->
-  <section class="bg-primary" id="download">
+  <section class="bg-primary py-5" id="download">
     <div class="container px-5">
       <h2 class="text-center text-white font-alt my-4">La community di SaFèm ti aspetta!</h2>
       <p class="text-white text-center">Scarica la app:</p>
@@ -87,18 +109,59 @@
     </div>
   </section>
   <!-- Footer-->
-  <footer class="bg-black text-center py-5">
-    <div class="container px-5">
-      <div class="text-white-50 small">
-        <div class="mb-2">&copy; Your Website 2021. All Rights Reserved.</div>
-        <a href="#!">Privacy</a>
-        <span class="mx-1">&middot;</span>
-        <a href="#!">Terms</a>
-        <span class="mx-1">&middot;</span>
-        <a href="#!">FAQ</a>
+  <footer class="bg-white">
+      <div class="container py-5">
+        <div class="row py-4">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+            <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <ul class="list-inline mt-4">
+              <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-muted">For Women</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Wishlist</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+            <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+            <div class="p-1 rounded border">
+              <div class="input-group">
+                <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                <div class="input-group-append">
+                  <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
+
+      <!-- Copyrights -->
+      <div class="bg-light py-4">
+        <div class="container text-center">
+          <p class="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
 
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
