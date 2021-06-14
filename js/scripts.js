@@ -50,7 +50,7 @@ items.forEach((el) => {
 });
 
 var customPin = L.icon({
-  iconUrl: '../assets/map-pin.png',
+  iconUrl: '/sa-fem/assets/map-pin.png',
   iconSize: [57, 57],
   iconAnchor: [28, 45]
 });
