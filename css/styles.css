@@ -20,25 +20,25 @@
 
  @font-face {
   font-family: "Helvetica Neue";
-  src: url(/sa-fem/assets/fonts/HelveticaNeueLTStd-Lt.otf);
+  src: url(../sa-fem/assets/fonts/HelveticaNeueLTStd-Lt.otf);
   font-weight: 300;
 }
 
 @font-face {
  font-family: "Helvetica Neue";
- src: url(/sa-fem/assets/fonts/HelveticaNeueLTStd-Roman.otf);
+ src: url(../sa-fem/assets/fonts/HelveticaNeueLTStd-Roman.otf);
  font-weight: 500;
 }
 
 @font-face {
  font-family: "Helvetica Neue";
- src: url(/sa-fem/assets/fonts/HelveticaNeueLTStd-Md.otf);
+ src: url(../sa-fem/assets/fonts/HelveticaNeueLTStd-Md.otf);
  font-weight: 700;
 }
 
 @font-face {
   font-family: "Woodland";
-  src: url(/sa-fem/assets/fonts/PPWoodland-Bold.otf);
+  src: url(../sa-fem/assets/fonts/PPWoodland-Bold.otf);
 }
 
 
