@@ -33,7 +33,6 @@
         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
           <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Come funziona</a></li>
           <li class="nav-item"><a class="nav-link me-lg-3" href="#community">Community</a></li>
-          <li class="nav-item"><a class="nav-link me-lg-3" href="../sa-fem/about.html">Chi siamo</a></li>
         </ul>
         <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
           <span class="d-flex align-items-center">
@@ -199,7 +198,7 @@
     </div>
   </aside>
   <!-- App features section-->
-  <section id="features" class="bg-secondary pt-5">
+  <section id="features" class="bg-secondary pt-5 overflow-hidden">
     <div class="px-sm-5 col">
       <div class="container h-100">
         <div class="row gx-5 align-items-center justify-content-center mb-5">
@@ -300,7 +299,7 @@
   <section id="community" class="d-flex justify-content-center flex-column align-content-center">
 <div class="container d-flex justify-content-center">
   <div class="col-lg-9">
-    <h3 class="display-4 text-primary text-center mt-5 mb-5">Vieni a conoscere <a href="/sa-fem/about.html">chi siamo</a> e la nostra community!</h3>
+    <h3 class="display-4 text-primary text-center mt-5 mb-5">Vieni a conoscere <a href="../sa-fem/about.html" class="text-primary">chi siamo</a> e la nostra community!</h3>
   </div>
 </div>
     <div class="container px-lg-5">
@@ -334,42 +333,27 @@
   <footer class="bg-white">
     <div class="container py-5">
       <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../sa-fem/assets/icone/logo.png" alt="" width="50" class="mb-3">
-          <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-          <ul class="list-inline mt-4">
-            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
-          </ul>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../sa-fem/assets/icone/safem-logotipo.png" alt="" width="100" class="mb-3">
+          <p class="font-italic text-muted">SaFèm è un progetto realizzato durante il Laboratorio di Sistemi per l'Interazione del corso di Laurea Magistrale in Design della Comunicazione al Politecnico di Milano.</p>
         </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 me-5">
+          <h6 class="text-uppercase font-weight-bold mb-4">Mappa del sito</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">For Women</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+            <li class="mb-2"><a href="../sa-fem/index.html" class="text-muted">Homepage</a></li>
+            <li class="mb-2"><a href="#features" class="text-muted">Come funziona</a></li>
+            <li class="mb-2"><a href="#community" class="text-muted">Community</a></li>
+            <li class="mb-2"><a href="../sa-fem/about.html" class="text-muted">Chi siamo</a></li>
           </ul>
         </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-          <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Wishlist</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
-          </ul>
-        </div>
+
         <div class="col-lg-4 col-md-6 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-          <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+          <p class="text-muted mb-4">Iscriviti per ricevere tutte le novità sulla community di SaFèm</p>
           <div class="p-1 rounded border">
             <div class="input-group">
-              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+              <input type="email" placeholder="E-mail" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
               <div class="input-group-append">
-                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+                <button id="button-addon1" type="submit" class="btn btn-link"><i class="bi bi-envelope"></i></button>
               </div>
             </div>
           </div>
@@ -380,7 +364,7 @@
     <!-- Copyrights -->
     <div class="bg-light py-4">
       <div class="container text-center">
-        <p class="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+        <p class="text-muted mb-0 py-2">© 2021 SaFèm. All rights reserved</p>
       </div>
     </div>
   </footer>

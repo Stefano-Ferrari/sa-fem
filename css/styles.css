@@ -11321,9 +11321,11 @@ footer a:hover, footer a:active, footer a:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   padding-top: 18vh;
   padding-bottom: 5vh;
+  margin-bottom: 5vh;
 }
 
 #icona:hover{
@@ -11437,8 +11439,8 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .team-photo-frame{
-  height: 18vw;
-  width: 18vw;
+  height: 22vw;
+  width: 22vw;
 }
 
 @media (min-width: 992px) {
@@ -11456,6 +11458,12 @@ footer a:hover, footer a:active, footer a:focus {
 
 .header-spacing {
   margin-top: 11vh;
+}
+
+@media (min-width: 992px) {
+  .header-spacing {
+    margin-top: 0vh;
+  }
 }
 
 .text-card-white {
@@ -11480,7 +11488,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 @media (min-width: 992px) {
-  .text-card-sevcondary{
+  .text-card-secondary{
     margin-left: 28vw;
     margin-right: 28vw;
     padding: 2vw;
